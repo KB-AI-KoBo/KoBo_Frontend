@@ -1,0 +1,166 @@
+body {
+    background: var(--white, #FEFEFE);
+}
+
+/* sidebar */
+.sidebarArea {
+    display: flex;
+    width: 308px;
+    height: 980px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.472px;
+    flex-shrink: 0;
+}
+
+.profileArea {
+    display: flex;
+    padding: 6px 12px 12px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.profileIcon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.profileText {
+    color: var(--gray_6, #404040);
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.sidebarContent {
+    display: flex;
+    width: 266px;
+    height: 980px;
+    padding: 0px 24px 16px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.contentDefault {
+    display: flex;
+    padding: 8px 129.8px 6px 22px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 0px 30px 30px 0px;
+    border-left: 2.4px solid var(--white, #FEFEFE);
+}
+
+.contentDefault.active {
+    border-left: 2.4px solid var(--gray_6, #404040);
+    background: var(--green_2, #D4EB94);
+}
+
+.contentIcon {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--white, #FEFEFE);
+}
+
+.contentText {
+    display: flex;
+    width: 64.2px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--gray_6, #404040);
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.toggleIcon {
+    color: var(--gray_6, #404040);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+
+}
+
+.toggleContent {
+    display: flex;
+    padding: 7px 129.8px 7px 22px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 0px 30px 30px 0px;
+    border-left: 2.4px solid var(--white, #FEFEFE);
+}
+
+.toggleContent.show {
+    display: flex;
+    width: 266px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.toggleSubContent {
+    display: flex;
+    padding: 4px 16px 4px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.toggleSubContentText {
+    color: var(--gray_6, #404040);
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.toggleSubContent.active {
+    background: var(--green_1, #E9F5C8);
+}
+
+.hamburgerArea {
+    display: flex;
+    width: 41.528px;
+    padding: 10px 4px 22px 4px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.hamburgerButton {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 12px 13px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--gray_6, #404040);
+}
+
+.hamburgerIcon {
+    color: var(--white, #FEFEFE);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px;
+}
